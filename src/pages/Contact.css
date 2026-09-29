@@ -1,0 +1,22 @@
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  width: 450px;
+  margin-left: 150px;
+}
+
+.contact-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #8f5cff;
+}
